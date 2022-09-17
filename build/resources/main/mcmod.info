@@ -1,0 +1,16 @@
+[
+{
+  "modid": "lightningsb",
+  "name": "Lightning's Skyblock Mod",
+  "description": "Example placeholder mod.",
+  "version": "1.8.9",
+  "mcversion": "1.8.9",
+  "url": "lighningz.me",
+  "updateUrl": "",
+  "authorList": ["Lightning"],
+  "credits": "Lightning, Silver(for helping me sorta with getting forge together)",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

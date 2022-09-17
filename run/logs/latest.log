@@ -1,18 +1,32 @@
-[00:29:32] [Client thread/INFO]: Setting user: Player236
-[00:29:34] [Client thread/INFO]: LWJGL Version: 2.9.4
-[00:29:37] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lightning's Skyblock Mod
-[00:29:37] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[00:29:37] [Thread-8/INFO]: Initializing LWJGL OpenAL
-[00:29:37] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[00:29:37] [Thread-8/INFO]: OpenAL initialized.
-[00:29:38] [Sound Library Loader/INFO]: Sound engine started
-[00:29:41] [Client thread/INFO]: Created: 16x16 textures-atlas
-[00:29:42] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lightning's Skyblock Mod
-[00:29:42] [Client thread/INFO]: SoundSystem shutting down...
-[00:29:42] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[00:29:42] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[00:29:42] [Thread-10/INFO]: Initializing LWJGL OpenAL
-[00:29:42] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[00:29:42] [Thread-10/INFO]: OpenAL initialized.
-[00:29:42] [Sound Library Loader/INFO]: Sound engine started
-[00:29:45] [Client thread/INFO]: Created: 512x512 textures-atlas
+[01:52:04] [Client thread/INFO]: Setting user: Player373
+[01:52:06] [Client thread/INFO]: LWJGL Version: 2.9.4
+[01:52:08] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lightning's Skyblock Mod
+[01:52:09] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[01:52:09] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[01:52:09] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[01:52:09] [Thread-9/INFO]: OpenAL initialized.
+[01:52:09] [Sound Library Loader/INFO]: Sound engine started
+[01:52:12] [Client thread/INFO]: Created: 16x16 textures-atlas
+[01:52:13] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lightning's Skyblock Mod
+[01:52:13] [Client thread/INFO]: SoundSystem shutting down...
+[01:52:14] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[01:52:14] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[01:52:14] [Thread-11/INFO]: Initializing LWJGL OpenAL
+[01:52:14] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[01:52:14] [Thread-11/INFO]: OpenAL initialized.
+[01:52:14] [Sound Library Loader/INFO]: Sound engine started
+[01:52:17] [Client thread/INFO]: Created: 512x512 textures-atlas
+[01:52:46] [Server thread/INFO]: Starting integrated minecraft server version 1.8.9
+[01:52:46] [Server thread/INFO]: Generating keypair
+[01:52:46] [Server thread/INFO]: Preparing start region for level 0
+[01:52:47] [Server thread/INFO]: Changing view distance to 8, from 10
+[01:52:48] [Client thread/INFO]: Realms library version == 1.7.59
+[01:52:48] [MCO Availability Checker #1/ERROR]: Couldn't connect to realms: 
+[01:52:48] [MCO Availability Checker #1/ERROR]: Couldn't connect to realms: 
+[01:52:49] [Server thread/INFO]: Player373[local:E:ec6a3f7a] logged in with entity id 129 at (4.4686140683831725, 75.98948102496935, -4.379996973082067)
+[01:52:49] [Server thread/INFO]: Player373 joined the game
+[01:52:49] [Server thread/INFO]: Saving and pausing game...
+[01:52:49] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:52:49] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:52:49] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:52:52] [Client thread/INFO]: [CHAT] An unknown error occurred while attempting to perform this command
