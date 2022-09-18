@@ -2,6 +2,7 @@ package me.lightningz.lightningsb.commands;
 
 import me.lightningz.lightningsb.Main;
 import me.lightningz.lightningsb.overlays.Overlay;
+import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommand;
@@ -34,7 +35,7 @@ public class testCommand implements ICommand {
 
     @Override
     public void processCommand(ICommandSender sender, String[] args) throws CommandException {
-        Main.INSTANCE.getListener().openGui(new Overlay());
+        Minecraft.getMinecraft().displayGuiScreen(new Overlay());
     }
 
     @Override

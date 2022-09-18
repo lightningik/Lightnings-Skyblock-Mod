@@ -1,5 +1,6 @@
 package me.lightningz.lightningsb.overlays;
 
+import me.lightningz.lightningsb.Main;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;
@@ -17,6 +18,7 @@ public class Overlay extends GuiScreen {
     private int offsetX, offsetY;
     private float guiScale;
     private boolean isDragging;
+    private boolean save = true;
 
 
 
@@ -70,6 +72,7 @@ public class Overlay extends GuiScreen {
         for (GuiButton guiButton : this.buttonList) {
             drawButton(guiButton, this.mc, mouseX, mouseY);
         }
+        super.drawScreen(mouseX, mouseY, partialTicks);
 
     }
 
@@ -83,6 +86,22 @@ public class Overlay extends GuiScreen {
 
     private boolean wouldRenderOutOfBoundsY(int y, float sf) {
         return (y <= 32 * sf || y >= height - 1 - 256 * sf);
+    }
+
+    @Override
+    public void onGuiClosed() {
+        save();
+    }
+
+    private void save() {
+        if (save) {
+            boolean relative = Main.INSTANCE.getConfig().OverlayConfig.relativeGui;
+            ScaledResolution sr = new ScaledResolution(Minecraft.getMinecraft());
+            Main.INSTANCE.getConfig().OverlayConfig.guiLeft = relative ? Math.round(((float) (guiLeft == 0 ? 1 : guiLeft) / ((float) sr.getScaledWidth())) * 1000) : guiLeft;
+            Main.INSTANCE.getConfig().OverlayConfig.guiTop = relative ? Math.round(((float) (guiTop == 0 ? 1 : guiTop) / ((float) sr.getScaledHeight())) * 1000) : guiTop;
+            Main.INSTANCE.getConfig().OverlayConfig.guiScale = relative ? (255f * guiScale) / sr.getScaledWidth() : guiScale;
+            Main.INSTANCE.saveConfig();
+        }
     }
 
 }
