@@ -1,29 +1,53 @@
-[01:00:44] [Client thread/INFO]: Setting user: Player333
-[01:00:46] [Client thread/INFO]: LWJGL Version: 2.9.4
-[01:00:48] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lightning's Skyblock Mod
-[01:00:48] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[01:00:48] [Thread-9/INFO]: Initializing LWJGL OpenAL
-[01:00:48] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[01:00:48] [Thread-9/INFO]: OpenAL initialized.
-[01:00:48] [Sound Library Loader/INFO]: Sound engine started
-[01:00:51] [Client thread/INFO]: Created: 16x16 textures-atlas
-[01:00:52] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lightning's Skyblock Mod
-[01:00:52] [Client thread/INFO]: SoundSystem shutting down...
-[01:00:52] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[01:00:52] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[01:00:52] [Thread-11/INFO]: Initializing LWJGL OpenAL
-[01:00:52] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[01:00:52] [Thread-11/INFO]: OpenAL initialized.
-[01:00:53] [Sound Library Loader/INFO]: Sound engine started
-[01:00:55] [Client thread/INFO]: Created: 512x512 textures-atlas
-[01:00:59] [Server thread/INFO]: Starting integrated minecraft server version 1.8.9
-[01:00:59] [Server thread/INFO]: Generating keypair
-[01:00:59] [Server thread/INFO]: Preparing start region for level 0
-[01:01:00] [Server thread/INFO]: Changing view distance to 5, from 10
-[01:01:01] [Server thread/INFO]: Player333[local:E:a9da67e2] logged in with entity id 97 at (77.20181269481287, 82.0, -166.3596611244306)
-[01:01:01] [Server thread/INFO]: Player333 joined the game
-[01:01:04] [Client thread/INFO]: [CHAT] Unknown command. Try /help for a list of commands
-[01:01:07] [Server thread/INFO]: Saving and pausing game...
-[01:01:07] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[01:01:07] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[01:01:07] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:12:58] [Client thread/INFO]: Setting user: Player144
+[12:13:00] [Client thread/INFO]: LWJGL Version: 2.9.4
+[12:13:02] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lightning's Skyblock Mod
+[12:13:02] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[12:13:02] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[12:13:02] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[12:13:02] [Thread-9/INFO]: OpenAL initialized.
+[12:13:03] [Sound Library Loader/INFO]: Sound engine started
+[12:13:06] [Client thread/INFO]: Created: 16x16 textures-atlas
+[12:13:06] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lightning's Skyblock Mod
+[12:13:06] [Client thread/INFO]: SoundSystem shutting down...
+[12:13:07] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[12:13:07] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[12:13:07] [Thread-11/INFO]: Initializing LWJGL OpenAL
+[12:13:07] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[12:13:07] [Thread-11/INFO]: OpenAL initialized.
+[12:13:07] [Sound Library Loader/INFO]: Sound engine started
+[12:13:10] [Client thread/INFO]: Created: 512x512 textures-atlas
+[12:13:14] [Server thread/INFO]: Starting integrated minecraft server version 1.8.9
+[12:13:14] [Server thread/INFO]: Generating keypair
+[12:13:14] [Server thread/INFO]: Preparing start region for level 0
+[12:13:15] [Server thread/INFO]: Changing view distance to 5, from 10
+[12:13:16] [Server thread/INFO]: Player144[local:E:89a869f7] logged in with entity id 92 at (18.267798157997817, 69.0, -166.30000001192093)
+[12:13:16] [Server thread/INFO]: Player144 joined the game
+[12:13:17] [Client thread/WARN]: Biome ID is out of bounds: -1, defaulting to 0 (Ocean)
+[12:13:17] [Client thread/WARN]: Biome ID is out of bounds: -1, defaulting to 0 (Ocean)
+[12:13:17] [Client thread/WARN]: Biome ID is out of bounds: -1, defaulting to 0 (Ocean)
+[12:13:17] [Client thread/WARN]: Biome ID is out of bounds: -1, defaulting to 0 (Ocean)
+[12:13:17] [Client thread/WARN]: Biome ID is out of bounds: -1, defaulting to 0 (Ocean)
+[12:13:17] [Client thread/WARN]: Biome ID is out of bounds: -1, defaulting to 0 (Ocean)
+[12:13:17] [Client thread/WARN]: Biome ID is out of bounds: -1, defaulting to 0 (Ocean)
+[12:13:17] [Client thread/WARN]: Biome ID is out of bounds: -1, defaulting to 0 (Ocean)
+[12:13:17] [Client thread/WARN]: Biome ID is out of bounds: -1, defaulting to 0 (Ocean)
+[12:13:17] [Client thread/WARN]: Biome ID is out of bounds: -1, defaulting to 0 (Ocean)
+[12:13:46] [Server thread/INFO]: Saving and pausing game...
+[12:13:46] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:13:47] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:13:47] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:13:51] [Server thread/INFO]: Player144 has just earned the achievement [Taking Inventory]
+[12:13:52] [Client thread/INFO]: [CHAT] Player144 has just earned the achievement [Taking Inventory]
+[12:18:19] [Client thread/INFO]: Stopping!
+[12:18:19] [Client thread/INFO]: SoundSystem shutting down...
+[12:18:19] [Server thread/INFO]: Stopping server
+[12:18:19] [Server thread/INFO]: Saving players
+[12:18:19] [Server thread/INFO]: Saving worlds
+[12:18:19] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:18:19] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[12:18:19] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:18:19] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:18:19] [Client Shutdown Thread/INFO]: Stopping server
+[12:18:19] [Client Shutdown Thread/INFO]: Saving players
+[12:18:19] [Client Shutdown Thread/INFO]: Saving worlds
+[12:18:19] [Client Shutdown Thread/INFO]: Saving chunks for level 'New World'/Overworld

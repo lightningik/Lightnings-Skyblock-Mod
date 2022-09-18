@@ -1,9 +1,9 @@
 {
   "config_opened": false,
   "overlay": {
-    "gui_scale": 0.0,
+    "gui_scale": 0.265625,
     "gui_left": 1,
-    "gui_top": 2,
+    "gui_top": 65,
     "relative_gui": true
   }
 }
