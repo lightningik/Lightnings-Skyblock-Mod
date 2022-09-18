@@ -24,7 +24,7 @@ public class Overlay extends GuiScreen {
 
     @Override
     public void initGui() {
-        buttonList.add(new GuiButton(0, 10, height-90, "Test"));
+        buttonList.add(new GuiButton(0, 150, height-200, "Test"));
         super.initGui();
     }
 
@@ -56,7 +56,6 @@ public class Overlay extends GuiScreen {
         GlStateManager.tryBlendFuncSeparate(770, 771, 1, 0);
         GlStateManager.blendFunc(GL11.GL_SRC_ALPHA, GL11.GL_ONE_MINUS_SRC_ALPHA);
         GlStateManager.color(0.3f, 0.3f, 0.3f, 0.5f);
-        drawTexturedModalRect((width-176)/2, (height-222)/2, 0, 0, 176, 222);
         GlStateManager.disableBlend();
         GlStateManager.color(1, 1, 1, 1);
         GlStateManager.popMatrix();
@@ -65,9 +64,6 @@ public class Overlay extends GuiScreen {
         GlStateManager.translate(guiLeft, guiTop, 0);
         GlStateManager.scale(guiScale, guiScale, guiScale);
         tick(mouseX, mouseY);
-        drawTexturedModalRect(96, 164, 0, 32, 64, 64);
-        drawTexturedModalRect(96, 32, 64, 32, 64, 64);
-        drawCenteredString(fontRendererObj, "Drag To Move", 128, 124, 0x00ff00);
         GlStateManager.popMatrix();
         for (GuiButton guiButton : this.buttonList) {
             drawButton(guiButton, this.mc, mouseX, mouseY);
@@ -104,6 +100,13 @@ public class Overlay extends GuiScreen {
         }
     }
 
+    @Override
+    protected void actionPerformed(GuiButton button) {
+        if (button.id == 0) {
+            guiScale = 1;
+            guiLeft = 1;
+            guiTop = 33;
+        }
+    }
+
 }
-
-

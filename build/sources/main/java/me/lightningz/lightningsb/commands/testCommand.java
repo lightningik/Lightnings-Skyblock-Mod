@@ -2,19 +2,17 @@ package me.lightningz.lightningsb.commands;
 
 import me.lightningz.lightningsb.Main;
 import me.lightningz.lightningsb.overlays.Overlay;
-import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiScreen;
+import net.minecraft.command.CommandBase;
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommand;
 import net.minecraft.command.ICommandSender;
 import net.minecraft.util.BlockPos;
 
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class testCommand implements ICommand {
-
+public class testCommand extends CommandBase {
 
     private GuiScreen toOpen;
 
@@ -25,7 +23,7 @@ public class testCommand implements ICommand {
 
     @Override
     public String getCommandUsage(ICommandSender sender) {
-        return "";
+        return "/" + getCommandName();
     }
 
     @Override
@@ -35,7 +33,9 @@ public class testCommand implements ICommand {
 
     @Override
     public void processCommand(ICommandSender sender, String[] args) throws CommandException {
-        Minecraft.getMinecraft().displayGuiScreen(new Overlay());
+        Main.INSTANCE.getListener().openGui(new Overlay());
+        System.out.println("command");
+        Main.guiToOpen = "displaygui";
     }
 
     @Override

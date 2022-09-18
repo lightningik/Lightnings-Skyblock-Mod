@@ -86,3 +86,11 @@ processResources
         exclude 'mcmod.info'
     }
 }
+
+apply plugin: "java"
+targetCompatibility = 1.8
+sourceCompatibility = 1.8
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+
+

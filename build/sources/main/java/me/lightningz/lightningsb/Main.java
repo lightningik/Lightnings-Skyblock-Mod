@@ -5,6 +5,8 @@ import com.google.gson.GsonBuilder;
 import me.lightningz.lightningsb.commands.testCommand;
 import me.lightningz.lightningsb.config.LSMConfig;
 import me.lightningz.lightningsb.listeners.EventListener;
+import me.lightningz.lightningsb.overlays.Overlay;
+import net.minecraft.client.Minecraft;
 import net.minecraft.init.Blocks;
 import net.minecraftforge.client.ClientCommandHandler;
 import net.minecraftforge.common.ForgeVersion;
@@ -13,6 +15,8 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.gameevent.TickEvent;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
@@ -34,6 +38,7 @@ public class Main
     private File configDir;
     private File configFile;
     public static final Gson gson = new Gson();
+    public static String guiToOpen = null;
 
     public Main() {
         INSTANCE = this;
@@ -84,6 +89,8 @@ public class Main
         System.out.println("DIRT BLOCK >> "+Blocks.dirt.getUnlocalizedName());
     }
 
+
+
     public File getConfigDir() {
         return configDir;
     }
@@ -98,6 +105,18 @@ public class Main
             config = new LSMConfig();
             config.processConfig();
             saveConfig();
+        }
+    }
+
+    @SubscribeEvent
+    public void onRenderTick(TickEvent.RenderTickEvent event) {
+        if (guiToOpen != null) {
+            Minecraft mc = Minecraft.getMinecraft();
+            mc.displayGuiScreen(new Overlay());
+            if ("displaygui".equals(guiToOpen)) {
+                mc.displayGuiScreen(new Overlay());
+            }
+            guiToOpen = null;
         }
     }
 
